@@ -472,6 +472,24 @@ a{
         display: flex;
         flex-direction: column;
     }
+    .modal-dialog{
+        padding: 20px 25px;
+    }
+    .modal-header{
+        margin-bottom: 25px;
+    }
+    .modal-title{
+        font-size: 24px;
+    }
+    .cose{
+        font-size: 24px;
+    }
+    .food-name{
+        font-size: 16px;
+    }
+    .food-price{
+        font-size: 16px;
+    }
 }
 @media (max-width: 480px){
     .button-text{
@@ -508,5 +526,26 @@ a{
         margin: auto;
         margin-bottom: 17px;
         margin-top: 15px;
+    }
+    .prace-tag{
+        width: 90px;
+        display: flex;
+    }
+    .modal-footer{
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .food-button{
+        width: 30px;
+        height: 25px;
+    }
+    .footer-buttons{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .food-name{
+        margin-right: 5px;
     }
 }
